@@ -15,8 +15,6 @@ if ( ! class_exists( 'WP_CLI' ) ) {
 	return;
 }
 
-require_once( __DIR__ . '/vendor/autoload.php' );
-
 /**
  * Imports a .yml file containing values to update to WordPress options.
  *
